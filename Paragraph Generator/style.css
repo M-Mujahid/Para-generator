@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ :root{
+    --textColor : hsl(209, 61%, 16%);
+    --backColor : hsl(210, 36%, 96%) ;
+
+ }
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color:  #f1f5f8;
+    color: var(--textColor);
+    line-height: 20px;
+    
+}
+h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    font-weight: 900;
+
+
+}
+
+.mainBody{
+    padding: auto;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 42rem;
+    margin-top: 5rem;
+    text-align: center;
+
+}
+
+.loremDiv{
+    margin-top: 50px;
+}
+label{
+    font-size: 22px;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+    
+}
+#amount{
+    width: 60px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    font-size: larger;
+    color: #49a6e9;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 7px 12px 7px 12px;
+    border-radius: 10px;
+    background-color: #49a6e9;
+    border: none;
+    transition: 1s all;
+    
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+
+.showText{
+
+    margin-top: 70px;
+    text-align: center;
+    color: var(--textColor);
+    opacity: 0.9;
+}
